@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top:60px;
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button-primary{
+  --bs-btn-focus-shadow-rgb:0,0,0;
+  --bs-btn-active-border-color: #000000;
 }
